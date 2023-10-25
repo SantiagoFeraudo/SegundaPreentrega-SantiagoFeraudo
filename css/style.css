@@ -1,0 +1,168 @@
+*{
+    margin: 0;
+    text-decoration: none;
+    list-style: none;
+}
+
+body{
+    font-family: Arial, Helvetica, sans-serif;
+    background-color:  #EEEDEF;
+}
+
+header{
+    width: 100%;
+    background-color: #13161E;
+    box-shadow: 0 20px 35px rgba(0, 0, 0, 0.1);
+}
+
+.containeer{
+    max-width: 1200px;
+    margin: 0 auto;
+}
+
+#menu{
+    display: none;
+}
+
+.icono{
+    width: 25px;
+}
+
+header label{
+    display: none;
+    width: 25px;
+    height: 25px;
+    padding: 15px;
+    border-right: 1px solid #8A8A8A6A;
+}
+
+header label{
+    cursor: pointer;
+    background-color: rgba(0, 0, 0, 0.3);
+}
+
+.navbar ul{
+    margin: 0;
+    padding: 0;
+    display: flex;
+    flex-direction: row;
+}
+
+.navbar li:hover{
+    background-color: #ffffff;
+}
+
+.navbar li a{
+    display: block;
+    padding: 20px;
+    color: #ffffff;
+    font-size: 16px;
+}
+
+.navbar li a:hover{
+    color: #13161E;
+}
+
+
+.seccionPrincipal{
+    background-color: #ffffff;
+}
+
+.home{
+    width: 350px;
+    height: 250px;
+}
+
+.producto1{
+    width: 250px;
+    height: 150px;
+}
+
+.producto2{
+    width: 250px;
+    height: 150px;
+    justify-content: center;
+}
+
+.producto3{
+    width: 250px;
+    height: 150px;
+}
+
+.contenedor{
+    display: flex;
+}
+
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    list-style: none;
+}
+
+body {
+    font-family: sans-serif;
+    text-transform:capitalize;
+}
+
+.container {
+    max-width: 1200px;
+    margin: 0 auto;   
+}
+
+.footer {
+    background-color: #ffffff;
+    padding: 80px 0;
+}
+
+.footer-row {
+    display: flex;
+    flex-wrap: wrap;
+}
+
+.footer-links {
+    width: 25%;
+    padding: 0 15px;
+}
+
+.footer-links h4 {
+    font-size: 20px;
+    color: #000000;
+    margin-bottom: 25px;
+    font-weight: 500;
+    border-bottom: 2px solid #002fff9f;
+    padding-bottom: 10px;
+    display: inline-block;
+}
+
+.footer-links ul li a {
+    font-size: 18px;
+    text-decoration: none;
+    color: #696969;
+    display: block;
+    margin-bottom: 15px;
+    transition: all .3s ease;
+}
+
+.footer-links ul li a:hover {
+    color: #002fff9f;
+    padding-left: 6px;
+}
+
+.social-link a {
+    display: inline-block;
+    min-height: 40px;
+    width: 40px;
+    background-color: rgb(0, 0, 0);
+    margin: 0 10px 10px 0;
+    text-align: center;
+    line-height: 40px;
+    border-radius: 50%;
+    color: #ffffff;
+    transition: all .5s ease;
+}
+
+.social-link a:hover {
+    background-color: #002fff9f;
+}
+
